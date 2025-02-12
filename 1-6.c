@@ -1,12 +1,9 @@
 #include <stdio.h>
- /* imprime la tabla Fahrenheit-Celsius */ 
+ /*cuenta los caracteres de la entrada; la. versión */
 int main( ){
-    int c;
-    
- while ((c = getchar( ) != EOF)){ 
-    
-    putchar(c);}
-    return 0;
-
-
-}
+    double nc;
+ for (nc = 0; getchar( ) != EOF; ++nc) 
+ 
+ ;
+    printf("%.0f\n", nc);
+}   
